@@ -1,0 +1,5 @@
+# Python experiments (tested with Python 3.10 and 3.13)
+numpy>=1.24          # sim/
+matplotlib>=3.7      # analysis/figs.py
+pqcrypto==1.0.0      # net/: FIPS 204 ML-DSA bindings (PQClean)
+# vault/gen_vectors.py runs in the ZKNOX venv created by vault/setup_and_test.sh

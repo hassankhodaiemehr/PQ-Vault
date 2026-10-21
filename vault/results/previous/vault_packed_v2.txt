@@ -1,0 +1,82 @@
+Compiling 1 files with Solc 0.8.30
+Solc 0.8.30 finished in 5.41s
+Compiler run successful!
+
+Ran 15 tests for test/PQVault_packed.t.sol:PQVaultTest
+[PASS] testCommittedBadRecordRejects() (gas: 616889)
+[PASS] testDirectVerification() (gas: 338137195)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+  GAS verifyDirect (all coins) exec/calldataBytes/txTotal: 154382695 809220 166314691
+  distinct reveals / coins: 120 193
+
+[PASS] testDisputeForgedRecordRejected() (gas: 653821)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+
+[PASS] testDisputeHonestRelayer() (gas: 2538633)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+  GAS challenge exec/calldataBytes/txTotal: 32478 68 53822
+  GAS respond (one ML-DSA verify) exec/calldataBytes/txTotal: 1234465 4228 1317425
+
+[PASS] testFinalizeBlockedWhileOpen() (gas: 1893940)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+
+[PASS] testHappyPathAndWithdraw() (gas: 653899)
+Logs:
+  GAS deposit exec/calldataBytes/txTotal: 14160 36 35364
+  GAS propose exec/calldataBytes/txTotal: 244356 260 268052
+  GAS finalize exec/calldataBytes/txTotal: 32386 36 53590
+  GAS withdraw exec/calldataBytes/txTotal: 70058 868 102414
+
+[PASS] testKeyRegistrationCost() (gas: 220050501)
+Logs:
+  GAS register expanded ML-DSA-44 key (SSTORE2) exec/bytes: 6334541 22400
+
+[PASS] testLateChallengeTimeout() (gas: 382535)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+
+[PASS] testLog2() (gas: 16169)
+Logs:
+  log2(3) * 1e6 and gas: 1584962 12704
+
+[PASS] testOpenAll() (gas: 322635034)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+  GAS challengeAll exec/calldataBytes/txTotal: 24895 36 46099
+  GAS postRecords batch 0 (31 records) exec/calldataBytes/txTotal: 338687 129060 4776150
+  GAS postRecords batch 1 (31 records) exec/calldataBytes/txTotal: 317252 129060 4776510
+  GAS postRecords batch 2 (31 records) exec/calldataBytes/txTotal: 317267 129060 4776120
+  GAS postRecords batch 3 (31 records) exec/calldataBytes/txTotal: 317702 129060 4776120
+  GAS postRecords batch 4 (31 records) exec/calldataBytes/txTotal: 317327 129060 4776060
+  GAS postRecords batch 5 (31 records) exec/calldataBytes/txTotal: 317672 129060 4775640
+  GAS postRecords batch 6 (7 records) exec/calldataBytes/txTotal: 65589 29220 1094400
+  OPENALL k / txs (<=128KB each) / total calldata bytes: 193 7 803580
+  OPENALL total exec gas / total tx gas (EIP-7623): 1991496 29751000
+
+[PASS] testOpenAllTimeout() (gas: 3446517)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+
+[PASS] testReproposeAfterReject() (gas: 858959)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+
+[PASS] testTamperedSigPathReverts() (gas: 718216)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+
+[PASS] testThirdPartyWrongPkAddrReverts() (gas: 1948032)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+
+[PASS] testWithdrawOnlyOnce() (gas: 501222)
+Logs:
+  GAS propose exec/calldataBytes/txTotal: 248855 260 272551
+
+Suite result: ok. 15 passed; 0 failed; 0 skipped; finished in 989.07ms (1.70s CPU time)
+
+Ran 1 test suite in 989.97ms (989.07ms CPU time): 15 tests passed, 0 failed, 0 skipped (15 total tests)

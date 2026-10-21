@@ -1,0 +1,8 @@
+{"host": "laptop-vm i9-13900HX", "cores": 2, "scheme": "ML-DSA-44", "n": 1024, "model": "classical", "k": 137, "reveals": 96, "cert_bytes": 375980, "build_ms": 6.42, "verify_ms": 9.99, "tag": "laptop"}
+{"host": "laptop-vm i9-13900HX", "cores": 2, "scheme": "ML-DSA-44", "n": 1024, "model": "qrom", "k": 186, "reveals": 125, "cert_bytes": 487604, "build_ms": 6.38, "verify_ms": 13.05, "tag": "laptop"}
+{"host": "laptop-vm i9-13900HX", "cores": 2, "scheme": "ML-DSA-44", "n": 4096, "model": "classical", "k": 142, "reveals": 125, "cert_bytes": 501300, "build_ms": 49.41, "verify_ms": 13.59, "tag": "laptop"}
+{"host": "laptop-vm i9-13900HX", "cores": 2, "scheme": "ML-DSA-44", "n": 4096, "model": "qrom", "k": 193, "reveals": 169, "cert_bytes": 674964, "build_ms": 24.19, "verify_ms": 18.17, "tag": "laptop"}
+{"host": "laptop-vm i9-13900HX", "cores": 2, "scheme": "ML-DSA-65", "n": 4096, "model": "classical", "k": 142, "reveals": 122, "cert_bytes": 676518, "build_ms": 57.80, "verify_ms": 19.81, "tag": "laptop"}
+{"host": "laptop-vm i9-13900HX", "cores": 2, "scheme": "ML-DSA-65", "n": 4096, "model": "qrom", "k": 193, "reveals": 166, "cert_bytes": 916434, "build_ms": 32.16, "verify_ms": 26.81, "tag": "laptop"}
+{"host": "laptop-vm i9-13900HX", "cores": 2, "scheme": "ML-DSA-87", "n": 4096, "model": "classical", "k": 142, "reveals": 129, "cert_bytes": 967091, "build_ms": 83.50, "verify_ms": 31.25, "tag": "laptop"}
+{"host": "laptop-vm i9-13900HX", "cores": 2, "scheme": "ML-DSA-87", "n": 4096, "model": "qrom", "k": 193, "reveals": 169, "cert_bytes": 1264715, "build_ms": 48.24, "verify_ms": 43.76, "tag": "laptop"}

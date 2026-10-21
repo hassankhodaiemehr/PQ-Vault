@@ -1,0 +1,25 @@
+# Rust
+target/
+**/*.rs.bk
+# Python
+__pycache__/
+*.pyc
+.venv/
+myenv/
+# Foundry workspace created by vault/setup_and_test.sh
+vault/_build/
+vault/results/*_local.txt
+out/
+cache/
+# external checkouts
+hash-sig/
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.synctex*
+# OS
+.DS_Store
+Thumbs.db

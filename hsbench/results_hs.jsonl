@@ -1,0 +1,5 @@
+{"active_epochs":1024,"keygen_s":0.397620232,"pk_bytes":48,"scheme":"XMSS-TS L2^18 dim64 base8","sig_bytes":2336,"sign_ms":0.756223,"verify_ms":0.18848}
+{"active_epochs":131072,"keygen_s":48.154432329,"pk_bytes":52,"scheme":"XMSS-TS L2^32 dim64 base8 (hashing-opt)","sig_bytes":3116,"sign_ms":0.7721269999999999,"verify_ms":0.216285}
+{"active_epochs":131072,"keygen_s":45.801076575,"pk_bytes":52,"scheme":"XMSS-TS L2^32 dim48 base10 (tradeoff)","sig_bytes":2604,"sign_ms":0.851225,"verify_ms":0.246216}
+{"active_epochs":131072,"keygen_s":75.110526069,"pk_bytes":52,"scheme":"XMSS-TS L2^32 dim32 base26 (size-opt)","sig_bytes":2092,"sign_ms":1.553936,"verify_ms":0.38211700000000004}
+done

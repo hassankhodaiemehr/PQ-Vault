@@ -1,0 +1,11 @@
+[package]
+name = "hsbench"
+version = "0.1.0"
+edition = "2024"
+[dependencies]
+hashsig = { path = "../hash-sig" }
+rand = "0.9"
+bincode = { version = "2", features = ["serde"] }
+serde_json = "1"
+[profile.release]
+opt-level = 3

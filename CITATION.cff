@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper."
+title: "PQ-Vault: artifact"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-20"
+authors:
+  - family-names: Khodaiemehr
+    given-names: Hassan
+  - family-names: Bagheri
+    given-names: Khadijeh
+  - family-names: Feng
+    given-names: Chen
+preferred-citation:
+  type: article
+  title: "PQ-Vault: Provably Quantum-Safe Asset Custody for Unmodified Ethereum"
+  authors:
+    - family-names: Khodaiemehr
+      given-names: Hassan
+    - family-names: Bagheri
+      given-names: Khadijeh
+    - family-names: Feng
+      given-names: Chen
+  journal: "IEEE Transactions on Dependable and Secure Computing"
+  status: submitted
+  year: 2026

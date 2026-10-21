@@ -1,0 +1,18 @@
+[PASS] testDirectVerification() (gas: 334688496)
+  GAS propose exec/calldataBytes/txTotal: 202277 260 225973
+  GAS verifyDirect (all coins) exec/calldataBytes/txTotal: 154229091 809220 166161807
+  distinct reveals / coins: 120 193
+[PASS] testDisputeForgedRecordRejected() (gas: 599575)
+  GAS propose exec/calldataBytes/txTotal: 202277 260 225973
+[PASS] testDisputeHonestRelayer() (gas: 2462864)
+  GAS propose exec/calldataBytes/txTotal: 202277 260 225973
+  GAS challenge exec/calldataBytes/txTotal: 31687 68 53031
+  GAS respond (one ML-DSA verify) exec/calldataBytes/txTotal: 1233434 4228 1316406
+[PASS] testHappyPathAndWithdraw() (gas: 576906)
+  GAS deposit exec/calldataBytes/txTotal: 13951 36 35155
+  GAS propose exec/calldataBytes/txTotal: 197778 260 221474
+  GAS finalize exec/calldataBytes/txTotal: 31648 36 52852
+  GAS withdraw exec/calldataBytes/txTotal: 68666 836 100858
+[PASS] testKeyRegistrationCost() (gas: 220018943)
+  GAS register expanded ML-DSA-44 key (SSTORE2) exec/bytes: 6334491 22400
+[PASS] testLog2() (gas: 15941)

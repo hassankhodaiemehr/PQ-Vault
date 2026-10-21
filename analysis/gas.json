@@ -1,0 +1,54 @@
+{
+ "direct_1024_sol-nist": {
+  "mode": "sol-nist",
+  "calldata_bytes": 474838.2796912194,
+  "exec_gas": 956218984.0,
+  "total_gas": 965657496.4750595,
+  "n_tx": 58
+ },
+ "resp_1024_sol-nist": 8209410.0,
+ "direct_1024_sol-eth": {
+  "mode": "sol-eth",
+  "calldata_bytes": 474838.2796912194,
+  "exec_gas": 578618984.0,
+  "total_gas": 587375496.4750595,
+  "n_tx": 36
+ },
+ "resp_1024_sol-eth": 5009410.0,
+ "direct_1024_precompile": {
+  "mode": "precompile",
+  "calldata_bytes": 2740438.2796912193,
+  "exec_gas": 1374784,
+  "total_gas": 109877631.18764877,
+  "n_tx": 7
+ },
+ "resp_1024_precompile": 975720,
+ "direct_65536_sol-nist": {
+  "mode": "sol-nist",
+  "calldata_bytes": 820591.1869366147,
+  "exec_gas": 1523675264.0,
+  "total_gas": 1539699822.9909859,
+  "n_tx": 92
+ },
+ "resp_65536_sol-nist": 8216874.0,
+ "direct_65536_sol-eth": {
+  "mode": "sol-eth",
+  "calldata_bytes": 820591.1869366147,
+  "exec_gas": 922075264.0,
+  "total_gas": 936983822.9909859,
+  "n_tx": 56
+ },
+ "resp_65536_sol-eth": 5016874.0,
+ "direct_65536_precompile": {
+  "mode": "precompile",
+  "calldata_bytes": 4430191.186936615,
+  "exec_gas": 2398064,
+  "total_gas": 177591747.47746462,
+  "n_tx": 11
+ },
+ "resp_65536_precompile": 991080,
+ "opf_propose": 156480,
+ "opf_finalize": 56100,
+ "opf_challenge": 65840,
+ "withdraw": 68740
+}
