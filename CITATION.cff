@@ -23,4 +23,9 @@ preferred-citation:
       given-names: Chen
   journal: "IEEE Transactions on Dependable and Secure Computing"
   status: submitted
+  identifiers:
+    - type: other
+      value: "arXiv:2610.29230"
+      description: "arXiv preprint"
+  url: "https://arxiv.org/abs/2610.29230"
   year: 2026

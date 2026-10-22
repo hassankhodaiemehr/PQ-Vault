@@ -2,7 +2,7 @@
 
 Code, raw results and plotting scripts for the paper
 
-> H. Khodaiemehr, K. Bagheri and C. Feng, **"PQ-Vault: Provably Quantum-Safe Asset Custody for Unmodified Ethereum"**, submitted to *IEEE Transactions on Dependable and Secure Computing*, 2026.
+> H. Khodaiemehr, K. Bagheri and C. Feng, **"PQ-Vault: Provably Quantum-Safe Asset Custody for Unmodified Ethereum"**, submitted to *IEEE Transactions on Dependable and Secure Computing*, 2026. Preprint: [arXiv:2610.29230](https://arxiv.org/abs/2610.29230).
 
 PQ-Vault escrows Ethereum assets in a vault contract whose release path uses only hash-based and ML-DSA (FIPS 204) checks. A quantum-safe proof-of-stake sidechain (QPoS-S) certifies checkpoints with compact certificates. The vault accepts a checkpoint optimistically, and a fraud proof opens a single reveal.
 
